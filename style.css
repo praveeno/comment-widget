@@ -1,0 +1,31 @@
+.small {
+  width: 36px;
+}
+.comment-box {
+  flex: 1;
+}
+.comment-box > input {
+  width: 100%;
+  height: 48px;
+  border: 0.125rem solid gray;
+  border-radius: 0.50rem;
+  padding: 1rem;
+}
+.vpadding {
+  padding: 16px 0;
+}
+
+.hpadding {
+  padding: 0 16px;
+}
+.hmargin {
+  margin: 0 16px;
+}
+
+.comment-author {
+  color: blue
+}
+
+.comment-content {
+  flex: 1 1 500px;
+}

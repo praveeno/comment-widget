@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment App</title>
+  <script type="module" src="main.js"></script>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="padding:16px">
+  <div >
+    <div class="flex flex-row">
+      <div>
+        <img class="small" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80">
+      </div>
+      <div class="comment-box hmargin">
+        <input placeholder="join the discussion" id="comment-box">
+        <div class="flex flex-row items-end">
+          <span id="counting"></span>
+        </div>
+      </div>
+    </div>
+    <div id="comment-list">
+    </div>
+</body>
+</html>
